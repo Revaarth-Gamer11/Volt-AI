@@ -896,7 +896,7 @@ export function App() {
     try {
       const response =
         await fetch(
-          'http://localhost:3001/api/chat',
+          '/api/chat',
           {
             method: 'POST',
             headers: {
